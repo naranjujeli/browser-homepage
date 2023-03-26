@@ -1,0 +1,13 @@
+images/classroom_icon.png filter=lfs diff=lfs merge=lfs -text
+images/github_icon.png filter=lfs diff=lfs merge=lfs -text
+images/gmail_icon.png filter=lfs diff=lfs merge=lfs -text
+images/instagram_icon.png filter=lfs diff=lfs merge=lfs -text
+images/miro_icon.png filter=lfs diff=lfs merge=lfs -text
+images/waving_hand.png filter=lfs diff=lfs merge=lfs -text
+images/youtube_icon.png filter=lfs diff=lfs merge=lfs -text
+images/chatgpt_icon.png filter=lfs diff=lfs merge=lfs -text
+images/google_icon.png filter=lfs diff=lfs merge=lfs -text
+images/reddit_icon.png filter=lfs diff=lfs merge=lfs -text
+images/translate_icon.png filter=lfs diff=lfs merge=lfs -text
+images/twitch_icon.png filter=lfs diff=lfs merge=lfs -text
+images/whatsapp_icon.png filter=lfs diff=lfs merge=lfs -text
