@@ -1,0 +1,150 @@
+:root {
+    --green-off: #00aa00;
+    --green-on: #00ee00;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: 0;
+}
+
+.main-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    display: flex;
+    /* justify-content: center; */
+
+    background-color: grey;
+    background-image: url("http://picsum.photos/1920/1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-back-div {
+    margin: auto;
+    padding: 3vmax;
+
+    width: 40vw;
+    height: fit-content;
+
+    border-radius: 0.5vmax;
+
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0.3vmax;
+    outline-offset: 1vmax;
+
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px 1px black;
+
+    transition: ease-out 0.5s;
+}
+
+.welcome-back-div:hover {
+    background-color: snow;
+    outline-width: 1vmax;
+    outline-offset: 0;
+}
+
+
+.welcome-back-h1 {
+    margin: 0;
+    padding: 1vmax 1vmax;
+    
+    text-shadow: 0 0 15px white;
+}
+
+.links-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.links-div a {
+    margin: 1vmax;
+    padding: 0.5vmax;
+
+    color: white;
+    text-decoration: none;
+
+    border-radius: 0.8vmax;
+
+    transition: 0.3s;
+}
+
+.links-div a:hover, .links-div a:focus {
+    box-shadow: inset black 0vmax 0vmax 0.3vmax 0.1vmax;
+    outline: solid black 3px;
+    outline-offset: 5px;
+    background-color: black;
+}
+
+a#google-link::before {
+    background-image: url("../images/google_icon.png");
+}
+
+a#youtube-link::before {
+    background-image: url("../images/youtube_icon.png");
+}
+
+a#classroom-link::before {
+    background-image: url("../images/classroom_icon.png");
+}
+
+a#gmail-link::before {
+    background-image: url("../images/gmail_icon.png");
+}
+
+a#instagram-link::before {
+    background-image: url("../images/instagram_icon.png");
+}
+
+a#reddit-link::before {
+    background-image: url("../images/reddit_icon.png");
+}
+
+a#twitch-link::before {
+    background-image: url("../images/twitch_icon.png");
+}
+
+a#whatsapp-link::before {
+    background-image: url("../images/whatsapp_icon.png");
+}
+
+a#translate-link::before {
+    background-image: url("../images/translate_icon.png");
+}
+
+a#github-link::before {
+    background-image: url("../images/github_icon.png");
+}
+
+a#chatgpt-link::before {
+    background-image: url("../images/chatgpt_icon.png");
+}
+
+a::before {
+    content: "";
+    display: inline;
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+    aspect-ratio: 1/1;
+    height: 1.2rem;
+    margin-right: 0.2rem;
+}
+
+.welcome-back-h1, .links-div a {
+    font-family: Ubuntu;
+}
